@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Auth.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Auth.SharedKernel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Auth.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Auth.Domain.dll": {}
+        }
+      },
+      "Auth.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Auth.Domain": "1.0.0",
+          "Auth.SharedKernel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Auth.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Auth.Infra.dll": {}
+        }
+      },
+      "Auth.SharedKernel/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Auth.SharedKernel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Auth.SharedKernel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Auth.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Auth.Domain/Auth.Domain.csproj",
+      "msbuildProject": "../Auth.Domain/Auth.Domain.csproj"
+    },
+    "Auth.Infra/1.0.0": {
+      "type": "project",
+      "path": "../Auth.Infra/Auth.Infra.csproj",
+      "msbuildProject": "../Auth.Infra/Auth.Infra.csproj"
+    },
+    "Auth.SharedKernel/1.0.0": {
+      "type": "project",
+      "path": "../Auth.SharedKernel/Auth.SharedKernel.csproj",
+      "msbuildProject": "../Auth.SharedKernel/Auth.SharedKernel.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Auth.Domain >= 1.0.0",
+      "Auth.Infra >= 1.0.0",
+      "Auth.SharedKernel >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/user/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/Auth.Api.csproj",
+      "projectName": "Auth.Api",
+      "projectPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/Auth.Api.csproj",
+      "packagesPath": "/Users/user/.nuget/packages/",
+      "outputPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/user/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Domain/Auth.Domain.csproj": {
+              "projectPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Domain/Auth.Domain.csproj"
+            },
+            "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/Auth.Infra.csproj": {
+              "projectPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/Auth.Infra.csproj"
+            },
+            "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/Auth.SharedKernel.csproj": {
+              "projectPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/Auth.SharedKernel.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

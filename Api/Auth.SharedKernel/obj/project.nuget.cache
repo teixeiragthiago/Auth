@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "R3EWUtLv6MTI8eS9wK13NDey+CCXj7W1AQYo3ZbiK+2ODDXyRNrLr11yKtoA56O7AMdQhASPhM7H8Gm85/TIUQ==",
+  "success": true,
+  "projectFilePath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/Auth.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "/Users/user/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

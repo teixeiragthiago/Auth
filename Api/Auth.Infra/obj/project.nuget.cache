@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BHJssHPNgCyZTkbW+5vKcodwq+0MGq3g1YvlnTOSv0DE8MuB8+DMqL7cWdcrdOqtkNTFxo65c7YZ5UP499XbfQ==",
+  "success": true,
+  "projectFilePath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/Auth.Infra.csproj",
+  "expectedPackageFiles": [
+    "/Users/user/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
