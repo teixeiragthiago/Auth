@@ -13,8 +13,11 @@
         "packagesPath": "/Users/user/.nuget/packages/",
         "outputPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "/Users/user/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

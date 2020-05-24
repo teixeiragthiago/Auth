@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Net.Http;
 using System.Text.RegularExpressions;
+using Newtonsoft.Json;
 
 namespace Auth.SharedKernel
 {
@@ -52,7 +53,7 @@ namespace Auth.SharedKernel
         //     return cnpjString.EndsWith(digit);
         // }
 
-        public static bool IsValidMail(this string mail)
+        public static bool IsValidEMail(this string mail)
             => !string.IsNullOrEmpty(mail) && new Regex(@"^([\w-\.]+)@((\[[\d]{1,3}\.[\d]{1,3}\.[\d]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[\d]{1,3})(\]?)$")
                    .IsMatch(mail);
 
@@ -60,23 +61,23 @@ namespace Auth.SharedKernel
             => !string.IsNullOrEmpty(phone) && new Regex(@"^(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})$")
                    .IsMatch(phone);
 
-        // public static string CastCnpj(this long value)
-        // {
-        //     var cpf = @"/^\d{3}\.\d{3}\.\d{3}\-\d{2}$/";
-        //     var cnpj = @"/^\d{2}\.\d{3}\.\d{3}\/\d{4}\-\d{2}$/";
+        //public static string CastCnpj(this long value)
+        //{
+        //    var cpf = @"/^\d{3}\.\d{3}\.\d{3}\-\d{2}$/";
+        //    var cnpj = @"/^\d{2}\.\d{3}\.\d{3}\/\d{4}\-\d{2}$/";
 
-        //     var stringValue = $"{value}";
+        //    var stringValue = $"{value}";
 
-        //     if (stringValue.RegexMatch(cpf, out var match))
-        //     {
-        //         return value.ToString();
-        //     }
-        //     else
-        //     {
-        //         stringValue.RegexMatch(cnpj, out match);
-        //         return value.ToString("00000000000000");
-        //     }
-        // }
+        //    if (stringValue.RegexMatch(cpf, out var match))
+        //    {
+        //        return value.ToString();
+        //    }
+        //    else
+        //    {
+        //        stringValue.RegexMatch(cnpj, out match);
+        //        return value.ToString("00000000000000");
+        //    }
+        //}
 
         public static long CastToLong(this string cnpj) => Convert.ToInt64(cnpj);
 
@@ -86,23 +87,23 @@ namespace Auth.SharedKernel
 
         public static bool IsValidEnum<T>(this T value) => value != null && Enum.IsDefined(typeof(T), value);
 
-        // public static T DeserializeJson<T>(this HttpContent content)
-        // {
-        //     return JsonConvert.DeserializeObject<T>(content.ReadAsStringAsync().Result);
-        // }
+        public static T DeserializeJson<T>(this HttpContent content)
+        {
+            return JsonConvert.DeserializeObject<T>(content.ReadAsStringAsync().Result);
+        }
 
-        // public static T DeserializeJsonWithoutToken<T>(this HttpContent content)
-        // {
-        //     var jsonString = content.DeserializeJson<ApiReturn>();
-        //     var json = JsonConvert.SerializeObject(jsonString.data);
-        //     return JsonConvert.DeserializeObject<T>(json);
-        // }
+        public static T DeserializeJsonWithoutToken<T>(this HttpContent content)
+        {
+            var jsonString = content.DeserializeJson<ApiReturn>();
+            var json = JsonConvert.SerializeObject(jsonString.data);
+            return JsonConvert.DeserializeObject<T>(json);
+        }
 
-        // public static string DeserializeJsonError(this HttpContent content)
-        // {
-        //     var jsonString = content.DeserializeJson<ApiReturn>();
-        //     return jsonString.error;
-        // }
+        public static string DeserializeJsonError(this HttpContent content)
+        {
+            var jsonString = content.DeserializeJson<ApiReturn>();
+            return jsonString.error;
+        }
 
         public static byte[] CastBase64(this string image)
         {

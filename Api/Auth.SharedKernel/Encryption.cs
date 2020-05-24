@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Auth.SharedKernel
 {
-    public class Encryption
+    public static class Encryption
     {
         private const string AllowedChars = "ABCDEFGHJKLMNOPQRSTUVWXYZ0123456789abcdefghijkmnopqrstuvwxyz!@$?-";
         private const string Key = "CNS8U3RS99VC4ZLYUXAKHLO4YJQZ1ZGZWYOPQRSZGQHJKAZXQRYHASGHW";
@@ -27,7 +27,7 @@ namespace Auth.SharedKernel
             return finalPassWord;
         }
 
-        public static string TrueCharValue(string input)
+        public static string TrueCharValue(this string input)
         {
             var originalPassWord = string.Empty;
             for (var i = 0; i <= input.Length - 1; i++)
@@ -53,7 +53,7 @@ namespace Auth.SharedKernel
             return new string(chars);
         }
 
-        public static string Encrypt(string input)
+        public static string Encrypt(this string input)
         {
             var bytesBuff = Encoding.Unicode.GetBytes(input);
             using (var aes = Aes.Create())
@@ -76,7 +76,7 @@ namespace Auth.SharedKernel
             return input;
         }
 
-        public static string Decrypt(string cryptoInput)
+        public static string Decrypt(this string cryptoInput)
         {
             var bytesBuff = Convert.FromBase64String(cryptoInput);
             using (var aes = Aes.Create())

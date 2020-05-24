@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0TryPkMDez6qLgrB0NTSGbYksVU3N5RApPqCXqthB3HW9IjlFBhwSAQ+QlFctiU6dqVciAvJ2qGKTG44SjiPaA==",
+  "dgSpecHash": "PBX0s+pfq1n5wSMPEW0aP40hlMX47UBXkAdvLRY9xJKagPzex4xXpsLzPMH8UStGyz2izmQcs8r77Ljjw0AMRA==",
   "success": true,
   "projectFilePath": "/Users/user/Documents/Projects/dotnetcore/Auth/Tests/Auth.Tests/Auth.Tests.csproj",
   "expectedPackageFiles": [

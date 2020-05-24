@@ -3505,7 +3505,8 @@
     ]
   },
   "packageFolders": {
-    "/Users/user/.nuget/packages/": {}
+    "/Users/user/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3516,6 +3517,9 @@
       "packagesPath": "/Users/user/.nuget/packages/",
       "outputPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Tests/Auth.Tests/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/user/.config/NuGet/NuGet.Config"
       ],

@@ -13,6 +13,9 @@
         "packagesPath": "/Users/user/.nuget/packages/",
         "outputPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Tests/Auth.Tests/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/user/.config/NuGet/NuGet.Config"
         ],

@@ -13,8 +13,11 @@
         "packagesPath": "/Users/user/.nuget/packages/",
         "outputPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Domain/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "/Users/user/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -40,11 +43,19 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.1, )"
             }
           },
           "imports": [
@@ -70,8 +81,11 @@
         "packagesPath": "/Users/user/.nuget/packages/",
         "outputPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "/Users/user/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

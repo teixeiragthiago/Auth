@@ -27,7 +27,7 @@ namespace Auth.SharedKernel
         public IEnumerable<T> Get<T>(string collectionName)
         {
             var query = GetCollection(collectionName).Find(x => true)
-                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Exclude(doc => doc["_id"]))
+                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Exclude(doc => doc[""]))
                 .ToCursorAsync().Result;
 
             query.MoveNextAsync();
@@ -38,7 +38,7 @@ namespace Auth.SharedKernel
         public IEnumerable<T> Get<T>(string collectionName, BsonDocument filter)
         {
             var query = GetCollection(collectionName).Find(filter)
-                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Exclude(doc => doc["_id"]))
+                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Exclude(doc => doc[""]))
                 .ToCursorAsync().Result;
 
             query.MoveNextAsync();
@@ -47,7 +47,7 @@ namespace Auth.SharedKernel
         public IEnumerable<T> GetWithId<T>(string collectionName)
         {
             var query = GetCollection(collectionName).Find(x => true)
-                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Include(doc => doc["_id"]))
+                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Include(doc => doc[""]))
                 .ToCursorAsync().Result;
 
             query.MoveNextAsync();
@@ -57,7 +57,7 @@ namespace Auth.SharedKernel
         public IEnumerable<T> GetAll<T>(string collectionName, BsonDocument filter)
         {
             var query = GetCollection(collectionName).Find(filter)
-                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Exclude(doc => doc["_id"]));
+                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Exclude(doc => doc[""]));
 
             return query.ToList().Select(x => BsonSerializer.Deserialize<T>(x));
         }
@@ -65,7 +65,7 @@ namespace Auth.SharedKernel
         public IEnumerable<T> GetAll<T>(string collectionName, Expression<Func<BsonDocument, bool>> filter)
         {
             var query = GetCollection(collectionName).Find(filter)
-                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Exclude(doc => doc["_id"]));
+                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Exclude(doc => doc[""]));
 
             return query.ToList().Select(x => BsonSerializer.Deserialize<T>(x));
         }
@@ -73,7 +73,7 @@ namespace Auth.SharedKernel
         public IEnumerable<T> GetAll<T>(string collectionName)
         {
             var query = GetCollection(collectionName).Find(x => true)
-                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Exclude(doc => doc["_id"]));
+                .Project<BsonDocument>(Builders<BsonDocument>.Projection.Exclude(doc => doc[""]));
 
             return query.ToList().Select(x => BsonSerializer.Deserialize<T>(x));
         }

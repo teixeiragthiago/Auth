@@ -1,0 +1,14 @@
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Infra.deps.json
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Infra.dll
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Infra.pdb
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Domain.dll
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.SharedKernel.dll
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Domain.pdb
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.SharedKernel.pdb
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.csprojAssemblyReference.cache
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.csproj.CoreCompileInputs.cache
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.AssemblyInfoInputs.cache
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.AssemblyInfo.cs
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.csproj.CopyComplete
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.dll
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.pdb

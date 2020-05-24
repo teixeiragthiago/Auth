@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wq03u8ix+RpdQZCDqJh86g9WynxCVRZAuSR7MomKpcRGPpB4M1kj2UxTYaMlUf/VhdTECHAugkmcElz86pHYYA==",
+  "dgSpecHash": "7pGqsiuKDp7I4b4hJvVHllrJlujq6T2M+Nh/Pr+ftCfLje2I0iGEkXdgTqObDJLth5kfpfGNBGsBOiGhj58AIQ==",
   "success": true,
   "projectFilePath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/Auth.SharedKernel.csproj",
   "expectedPackageFiles": [
