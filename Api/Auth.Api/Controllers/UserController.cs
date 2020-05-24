@@ -20,11 +20,23 @@ namespace Auth.Api.Controllers
             _notification = notification;
         }
 
-        [HttpGet]
+        [HttpGet("ping")]
         [AllowAnonymous]
-        public IActionResult Get()
+        public IActionResult Ping()
         {
             return Ok("Ping..");
+        }
+
+        [HttpGet]
+        [Authorize()]
+        public IActionResult Get(int? page = null, int? paginateQuantity = null, string email = null, string name = null, string gender = null)
+        {
+            var users = _userService.Get(out int total, page, paginateQuantity, email, name, gender);
+
+            if (_notification.Any())
+                return BadRequest(_notification.GetErrors());
+
+            return Ok(new { total, users });
         }
 
         [HttpPost]
@@ -42,7 +54,7 @@ namespace Auth.Api.Controllers
         [AllowAnonymous]
         public IActionResult Authenticate(UserDto user)
         {
-            var userData = _userService.Get(user.Email, user.PasswordHash);
+            var userData = _userService.GetByEmailAndPassword(user.Email, user.PasswordHash);
 
             if (_notification.Any())
                 return BadRequest(_notification.GetErrors());

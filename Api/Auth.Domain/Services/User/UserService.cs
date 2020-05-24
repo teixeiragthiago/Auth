@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -51,7 +52,12 @@ namespace Auth.Domain.Services.User
             return tokenHandler.WriteToken(token);
         }
 
-        public UserDto Get(string email, string password)
+        public IEnumerable<UserDto> Get(out int total, int? page = null, int? paginateQuantity = null, string email = null, string name = null, string gender = null)
+        {
+            return _mapper.Map<IEnumerable<UserDto>>(_userRepository.Get(out total, page, paginateQuantity, email, name, gender));
+        }
+
+        public UserDto GetByEmailAndPassword(string email, string password)
         {
             var user = _userRepository.GetByEmailAndPassword(email, Encryption.Encrypt(password.ToLower()));
 
