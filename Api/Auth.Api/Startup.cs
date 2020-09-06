@@ -37,6 +37,18 @@ namespace Auth.Api
         {
             var key = Encoding.ASCII.GetBytes(Secret.key);
 
+            #region Cors
+
+            services.AddCors(options => 
+            {
+                options.AddPolicy("SiteCorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowCredentials()
+                        .AllowAnyHeader());    
+            });
+            #endregion 
+
             services.AddControllers();
             
             #region Authentication
@@ -63,23 +75,10 @@ namespace Auth.Api
 
             #endregion
 
-
-            #region Cors
-
-            services.AddCors(options => 
-            {
-                options.AddPolicy("SiteCorsPolicy",
-                    builder => builder.AllowAnyOrigin()
-                        .AllowAnyMethod()
-                        .AllowCredentials()
-                        .AllowAnyHeader());    
-            });
-            #endregion 
-
-            services.AddMvc().AddMvcOptions(options => 
-            {
-                options.EnableEndpointRouting = false;
-            });
+            // services.AddMvc().AddMvcOptions(options => 
+            // {
+            //     options.EnableEndpointRouting = false;
+            // });
             services.Register();//Register all dependencies! AWESOME!
             
         }
@@ -96,15 +95,20 @@ namespace Auth.Api
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            // app.UseCors(x => x
+            //     .AllowAnyOrigin()
+            //     .AllowAnyMethod()
+            //     .AllowAnyHeader());
+            
             app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
 
-            app.UseMvc();
+            // app.UseMvc();
         }
     }
 }

@@ -1,9 +1,0 @@
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/bin/Debug/netstandard2.0/Auth.SharedKernel.deps.json
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/bin/Debug/netstandard2.0/Auth.SharedKernel.dll
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/bin/Debug/netstandard2.0/Auth.SharedKernel.pdb
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.csprojAssemblyReference.cache
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.csproj.CoreCompileInputs.cache
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.AssemblyInfoInputs.cache
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.AssemblyInfo.cs
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.dll
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.pdb

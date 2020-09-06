@@ -20,15 +20,15 @@ namespace Auth.Api.Controllers
             _notification = notification;
         }
 
-        [HttpGet("ping")]
         [AllowAnonymous]
+        [HttpGet("ping")]
         public IActionResult Ping()
         {
             return Ok("Ping..");
         }
 
+        [Authorize]
         [HttpGet]
-        [Authorize()]
         public IActionResult Get(int? page = null, int? paginateQuantity = null, string email = null, string name = null, string gender = null)
         {
             var users = _userService.Get(out int total, page, paginateQuantity, email, name, gender);

@@ -26,7 +26,7 @@ namespace Auth.Infra.Repositories
             }
 
             if (!string.IsNullOrEmpty(name))
-                users = users.Where(x => x.Name == name);
+                users = users.Where(x => x.Name.ToLower().Contains((name.ToLower())));
 
             if (!string.IsNullOrEmpty(gender))
                 users = users.Where(x => x.Gender == gender);

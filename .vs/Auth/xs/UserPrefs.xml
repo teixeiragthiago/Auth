@@ -1,20 +1,17 @@
 ﻿<Properties StartupConfiguration="{26965C80-2B12-4C22-9129-3C303276E098}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Auth.Api/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Auth.SharedKernel/MongoDb.cs">
     <Files>
-      <File FileName="Api/Auth.Api/Controllers/UserController.cs" Line="18" Column="10" />
-      <File FileName="Api/Auth.Api/Startup.cs" Line="38" Column="57" />
+      <File FileName="Api/Auth.SharedKernel/MongoDb.cs" Line="78" Column="63" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Auth" expanded="True">
             <Node name="Api" expanded="True">
-              <Node name="Auth.Api" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Startup.cs" selected="True" />
-              </Node>
-              <Node name="Auth.Infra" expanded="True">
-                <Node name="Repositories" expanded="True" />
+              <Node name="Auth.SharedKernel" expanded="True">
+                <Node name="Dependencies" expanded="True">
+                  <Node name="PackageDependencies" expanded="True" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -31,6 +28,8 @@
       <Breakpoint file="/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Domain/Services/User/UserService.cs" relfile="Api/Auth.Domain/Services/User/UserService.cs" line="77" column="10" />
       <Breakpoint file="/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Infra/Repositories/UserRepository.cs" relfile="Api/Auth.Infra/Repositories/UserRepository.cs" line="42" column="10" />
       <Breakpoint file="/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/Controllers/UserController.cs" relfile="Api/Auth.Api/Controllers/UserController.cs" line="45" column="1" />
+      <Breakpoint file="/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/Controllers/UserController.cs" relfile="Api/Auth.Api/Controllers/UserController.cs" line="33" column="1" />
+      <Breakpoint file="/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/Controllers/UserController.cs" relfile="Api/Auth.Api/Controllers/UserController.cs" line="56" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

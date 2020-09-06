@@ -1,0 +1,64 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Domain/Auth.Domain.csproj",
+    "projectName": "Auth.Domain",
+    "projectPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Domain/Auth.Domain.csproj",
+    "outputPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Domain/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/Auth.SharedKernel.csproj": {
+            "projectPath": "/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.SharedKernel/Auth.SharedKernel.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[8.0.0, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "System.IdentityModel.Tokens.Jwt": {
+          "target": "Package",
+          "version": "[6.5.1, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+    }
+  }
+}

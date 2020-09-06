@@ -21,6 +21,9 @@
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/SharpCompress.dll
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/runtimes/win/native/libzstd.dll
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy32.dll
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy64.dll
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Domain.dll
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Infra.dll
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.SharedKernel.dll
@@ -28,10 +31,10 @@
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Infra.pdb
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.SharedKernel.pdb
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.csprojAssemblyReference.cache
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.csproj.CoreCompileInputs.cache
-/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.MvcApplicationPartsAssemblyInfo.cache
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.AssemblyInfoInputs.cache
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.AssemblyInfo.cs
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.csproj.CoreCompileInputs.cache
+/Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.MvcApplicationPartsAssemblyInfo.cache
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.RazorTargetAssemblyInfo.cache
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.csproj.CopyComplete
 /Users/user/Documents/Projects/dotnetcore/Auth/Api/Auth.Api/obj/Debug/netcoreapp3.1/staticwebassets/Auth.Api.StaticWebAssets.Manifest.cache
