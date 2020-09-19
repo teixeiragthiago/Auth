@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{26965C80-2B12-4C22-9129-3C303276E098}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Auth.SharedKernel/MongoDb.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Auth.Infra/Base/DapperBaseRepository.cs">
     <Files>
-      <File FileName="Api/Auth.SharedKernel/MongoDb.cs" Line="78" Column="63" />
+      <File FileName="Api/Auth.Infra/Base/DapperBaseRepository.cs" Line="16" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Auth" expanded="True">
             <Node name="Api" expanded="True">
-              <Node name="Auth.SharedKernel" expanded="True">
+              <Node name="Auth.Infra" expanded="True">
                 <Node name="Dependencies" expanded="True">
                   <Node name="PackageDependencies" expanded="True" selected="True" />
                 </Node>

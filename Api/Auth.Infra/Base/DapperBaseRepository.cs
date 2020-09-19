@@ -1,3 +1,4 @@
+using Dapper;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
@@ -6,7 +7,7 @@ namespace Auth.Infra.Base
     public class DapperBaseRepository
     {
         private SqlConnection Create()
-        {
+        {   
             return new SqlConnection("");
         }
 
@@ -20,7 +21,6 @@ namespace Auth.Infra.Base
                 cn.Close();
                 cn.Dispose();
             }
-
             return ret;
         }
 

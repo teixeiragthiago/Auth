@@ -2,11 +2,12 @@ using System.Collections.Generic;
 using System.Linq;
 using Auth.Domain.Services.User;
 using Auth.Domain.Services.User.Entities;
+using Auth.Infra.Base;
 using Auth.SharedKernel;
 
 namespace Auth.Infra.Repositories
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : DapperBaseRepository, IUserRepository
     {
         private readonly DbContext _context;
 
