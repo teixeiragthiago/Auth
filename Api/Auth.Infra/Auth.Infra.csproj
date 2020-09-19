@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
-    <ProjectReference Include="..\Auth.Domain\Auth.Domain.csproj" />
-    <ProjectReference Include="..\Auth.SharedKernel\Auth.SharedKernel.csproj" />
+    <ProjectReference Include="..\Auth.Domain\Auth.Domain.csproj"/>
+    <ProjectReference Include="..\Auth.SharedKernel\Auth.SharedKernel.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30"/>
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
 </Project>

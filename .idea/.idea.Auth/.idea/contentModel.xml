@@ -46,7 +46,7 @@
           </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
-              <e p="netstandard2.0" t="Include">
+              <e p="netcoreapp3.1" t="Include">
                 <e p="Auth.Domain.AssemblyInfo.cs" t="Include" />
               </e>
             </e>
@@ -71,7 +71,7 @@
           <e p="DbContext.cs" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
-              <e p="netstandard2.0" t="Include">
+              <e p="netcoreapp3.1" t="Include">
                 <e p="Auth.Infra.AssemblyInfo.cs" t="Include" />
               </e>
             </e>
@@ -92,10 +92,9 @@
           <e p="Encryption.cs" t="Include" />
           <e p="Extensions.cs" t="Include" />
           <e p="MongoDb.cs" t="Include" />
-          <e p="mono_crash.1cfb5decbf.0.json" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
-              <e p="netstandard2.0" t="Include">
+              <e p="netcoreapp3.1" t="Include">
                 <e p="Auth.SharedKernel.AssemblyInfo.cs" t="Include" />
               </e>
             </e>

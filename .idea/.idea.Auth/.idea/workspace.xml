@@ -5,82 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad46ab1-b8ee-4d64-b6e2-bee13b723a99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.vs/Auth/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Auth/xs/UserPrefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Auth/xs/project-cache/Auth.Api-Debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Auth/xs/project-cache/Auth.Api-Debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Auth/xs/project-cache/Auth.Domain-Debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Auth/xs/project-cache/Auth.Domain-Debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Infra.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.Infra.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.SharedKernel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.SharedKernel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/bin/Debug/netcoreapp3.1/Auth.SharedKernel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/Auth.Api.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/Auth.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/Auth.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Auth/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Auth/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Auth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Auth/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/Auth.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/Auth.Api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/Debug/netcoreapp3.1/Auth.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/Debug/netcoreapp3.1/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/Debug/netcoreapp3.1/project.razor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/Services/User/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/Services/User/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/bin/Debug/netstandard2.0/Auth.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/bin/Debug/netstandard2.0/Auth.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/bin/Debug/netstandard2.0/Auth.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/bin/Debug/netstandard2.0/Auth.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/bin/Debug/netstandard2.0/Auth.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/bin/Debug/netstandard2.0/Auth.SharedKernel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/bin/Debug/netstandard2.0/Auth.SharedKernel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/bin/Debug/netstandard2.0/Auth.SharedKernel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/Auth.Domain.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/Auth.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/Auth.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Auth.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Api/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/Auth.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/Auth.Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/Debug/netstandard2.0/Auth.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/Debug/netstandard2.0/Auth.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/Debug/netstandard2.0/Auth.Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/Debug/netstandard2.0/Auth.Domain.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/Debug/netstandard2.0/Auth.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/Debug/netstandard2.0/Auth.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/Debug/netstandard2.0/Auth.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/Debug/netstandard2.0/Auth.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Infra.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Infra.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Infra.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.Infra.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.SharedKernel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.SharedKernel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/bin/Debug/netstandard2.0/Auth.SharedKernel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/Auth.Infra.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/Auth.Infra.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/Auth.Infra.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/Debug/netcoreapp3.1/Auth.Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/Debug/netcoreapp3.1/Auth.Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Auth.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Domain/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/Auth.Infra.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/Auth.Infra.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/Debug/netstandard2.0/Auth.Infra.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/bin/Debug/netstandard2.0/Auth.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/bin/Debug/netstandard2.0/Auth.SharedKernel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/bin/Debug/netstandard2.0/Auth.SharedKernel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/bin/Debug/netstandard2.0/Auth.SharedKernel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Auth.SharedKernel.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Auth.SharedKernel.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Auth.SharedKernel.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/Debug/netcoreapp3.1/Auth.Infra.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/Debug/netcoreapp3.1/Auth.Infra.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Auth.Infra/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.Infra/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Auth.SharedKernel.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Auth.SharedKernel.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Debug/netstandard2.0/Auth.SharedKernel.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/bin/Debug/netcoreapp3.1/Auth.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/bin/Debug/netcoreapp3.1/Auth.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/bin/Debug/netcoreapp3.1/Auth.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/bin/Debug/netcoreapp3.1/Auth.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Auth.Tests.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Auth.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Auth.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Auth.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Auth.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Debug/netcoreapp3.1/Auth.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Debug/netcoreapp3.1/Auth.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Debug/netcoreapp3.1/Auth.SharedKernel.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Auth.SharedKernel/obj/Debug/netcoreapp3.1/Auth.SharedKernel.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Debug/netcoreapp3.1/Auth.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Debug/netcoreapp3.1/Auth.Tests.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Debug/netcoreapp3.1/Auth.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Debug/netcoreapp3.1/Auth.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Debug/netcoreapp3.1/Auth.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Debug/netcoreapp3.1/Auth.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Debug/netcoreapp3.1/Auth.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/obj/Debug/netcoreapp3.1/Auth.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Auth.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Auth.Tests/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +55,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Auth.Api">
+    <configuration name="Publish Auth to folder" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
+      <riderPublish uuid_high="2780511525496048674" uuid_low="-7986786286462115688" />
+      <method v="2" />
+    </configuration>
     <configuration name="Auth.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Api/Auth.Api/Auth.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -142,6 +89,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Publish to folder.Publish Auth to folder" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -153,6 +105,7 @@
       <updated>1599261968251</updated>
       <workItem from="1599261970052" duration="2130000" />
       <workItem from="1599264992991" duration="1804000" />
+      <workItem from="1599355762779" duration="692000" />
     </task>
     <servers />
   </component>
@@ -165,22 +118,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="179" key="GridCell.Tab.0.bottom" timestamp="1599266863777">
+    <state width="1233" height="179" key="GridCell.Tab.0.bottom" timestamp="1599356537283">
       <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state width="1238" height="179" key="GridCell.Tab.0.bottom/0.23.1280.721/-612.-1057.2560.1057@0.23.1280.721" timestamp="1599266863777" />
-    <state width="1238" height="179" key="GridCell.Tab.0.center" timestamp="1599266863775">
+    <state width="1233" height="179" key="GridCell.Tab.0.bottom/0.23.1280.721/-612.-1057.2560.1057@0.23.1280.721" timestamp="1599356537283" />
+    <state width="1233" height="179" key="GridCell.Tab.0.center" timestamp="1599356537282">
       <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state width="1238" height="179" key="GridCell.Tab.0.center/0.23.1280.721/-612.-1057.2560.1057@0.23.1280.721" timestamp="1599266863775" />
-    <state width="1238" height="179" key="GridCell.Tab.0.left" timestamp="1599266863774">
+    <state width="1233" height="179" key="GridCell.Tab.0.center/0.23.1280.721/-612.-1057.2560.1057@0.23.1280.721" timestamp="1599356537282" />
+    <state width="1233" height="179" key="GridCell.Tab.0.left" timestamp="1599356537282">
       <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state width="1238" height="179" key="GridCell.Tab.0.left/0.23.1280.721/-612.-1057.2560.1057@0.23.1280.721" timestamp="1599266863774" />
-    <state width="1238" height="179" key="GridCell.Tab.0.right" timestamp="1599266863776">
+    <state width="1233" height="179" key="GridCell.Tab.0.left/0.23.1280.721/-612.-1057.2560.1057@0.23.1280.721" timestamp="1599356537282" />
+    <state width="1233" height="179" key="GridCell.Tab.0.right" timestamp="1599356537283">
       <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state width="1238" height="179" key="GridCell.Tab.0.right/0.23.1280.721/-612.-1057.2560.1057@0.23.1280.721" timestamp="1599266863776" />
+    <state width="1233" height="179" key="GridCell.Tab.0.right/0.23.1280.721/-612.-1057.2560.1057@0.23.1280.721" timestamp="1599356537283" />
     <state width="1238" height="250" key="GridCell.Tab.1.bottom" timestamp="1599264580933">
       <screen x="0" y="23" width="1280" height="721" />
     </state>
@@ -259,42 +212,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api/Auth.Api/Controllers/UserController.cs</url>
-          <line>25</line>
-          <properties documentPath="$PROJECT_DIR$/Api/Auth.Api/Controllers/UserController.cs" initialLine="25">
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/Api/Auth.Api/Controllers/UserController.cs" initialLine="56">
             <startOffsets>
-              <option value="742" />
+              <option value="1657" />
             </startOffsets>
             <endOffsets>
-              <option value="743" />
+              <option value="1738" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Api/Auth.Api/Controllers/UserController.cs</url>
-          <line>55</line>
-          <properties documentPath="$PROJECT_DIR$/Api/Auth.Api/Controllers/UserController.cs" initialLine="55">
-            <startOffsets>
-              <option value="1643" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1644" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Api/Auth.Api/Controllers/UserController.cs</url>
-          <line>32</line>
-          <properties documentPath="$PROJECT_DIR$/Api/Auth.Api/Controllers/UserController.cs" initialLine="32">
-            <startOffsets>
-              <option value="978" />
-            </startOffsets>
-            <endOffsets>
-              <option value="979" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
